@@ -1,0 +1,11 @@
+Server: nginx
+Date: Mon, 15 Jan 2018 22:55:04 GMT
+Content-Type: text/plain; charset=UTF-8
+Set-Cookie: CTK=1c3u0h0v61d677tg; Domain=.indeed.com; Expires=Sat, 20-Jan-2035 17:43:35 GMT; Path=/
+Set-Cookie: ctkgen=1; Expires=Mon, 15-Jan-2018 22:58:04 GMT; Path=/
+Set-Cookie: JSESSIONID=0D415427F45DDBE54B3874700CAFCB5A.jasxB_sjc-job8; Path=/; HttpOnly
+Set-Cookie: INDEED_CSRF_TOKEN=4BHJwYmskZpfrVf7pdhGziBtsi86D3Xo; Path=/
+X-Frame-Options: SAMEORIGIN
+Location: https://www.indeed.com/q-Kafka-l-94002-jobs.html
+X-Content-Type-Options: nosniff
+Vary: User-Agent
