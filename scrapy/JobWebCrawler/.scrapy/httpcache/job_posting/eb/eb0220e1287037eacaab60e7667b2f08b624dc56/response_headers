@@ -1,0 +1,13 @@
+Accept-Ranges: bytes
+Access-Control-Allow-Origin: *
+Cache-Control: private,max-age=604800
+Content-Encoding: gzip
+Content-Type: text/plain
+Date: Tue, 16 Jan 2018 05:07:22 GMT
+Etag: "206cee2c889d31:0"
+Last-Modified: Wed, 10 Jan 2018 04:10:00 GMT
+Server: Jobvite
+Server: Jobvite
+Vary: Accept-Encoding
+X-Jobvite-Proxy: true
+X-Powered-By: Jobvite

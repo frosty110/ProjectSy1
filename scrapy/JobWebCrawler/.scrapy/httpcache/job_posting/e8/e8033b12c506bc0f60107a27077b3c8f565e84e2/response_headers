@@ -1,0 +1,13 @@
+Server: nginx
+Date: Tue, 16 Jan 2018 05:11:46 GMT
+Content-Type: text/html;charset=UTF-8
+Set-Cookie: JSESSIONID=3C00BDE7E2160B60289BBFB29FE63E5F.jasxB_sjc-job5; Path=/; HttpOnly
+Set-Cookie: INDEED_CSRF_TOKEN=oTBhp9Iy8Ob9jsf5QFIHEXiGVDzripRP; Path=/
+Set-Cookie: adconv="-6NYlbfkN0DhVAxkc_TxySVbUOs6bxWYWOfhmDTNcVTjFFBAY1FXZ_jbp8Q_DSbxEHI3oKBhlFxRnrV-VCziSiQi9wSjIXTlNvgDmfon1odMThWUGVqigjtmyVNagPOS0xr0wQYrNPf4Zk_YfkXBDPcf3ksmNB_AbfjMxZ8l9lYTt7AC4SSqoT93wq-4oCW2"; Domain=.conv.indeed.com; Expires=Thu, 15-Feb-2018 05:11:46 GMT; Path=/pagead/conv/210908886952977/
+Set-Cookie: BIGipServerjob=!yqv2eYayj/MFuDkQu2sD1PzY/fw9DrWwMEQ8uaB13wOmvKUJ3YmZXawfH/tQwhqRO73lmXGjtoUvvaE=; path=/
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.indeed.com *.indeed.net www.indeed.com  d2q79iu7y748jz.cloudfront.net d3s4xzh46vzktb.cloudfront.net d1ymdoy4af119w.cloudfront.net d3fw5vlhllyvee.cloudfront.net www.google-analytics.com https://www.facebook.com/tr/ https://sb.scorecardresearch.com b.scorecardresearch.com https://connect.facebook.net https://6927552.fls.doubleclick.net/ *.serving-sys.com mc.yandex.ru https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ chart.apis.google.com;
+P3P: policyref="http://www.indeed.com/pagead/p3p.xml", CP="NOI DEV PSA PSD IVA PVD OTP OUR OTR IND OTC"
+Cache-Control: private
+Location: https://www.indeed.com/prime/jobs/python-developer-back-end-kafka-cassandra-thrift-python-softvision
+X-Content-Type-Options: nosniff

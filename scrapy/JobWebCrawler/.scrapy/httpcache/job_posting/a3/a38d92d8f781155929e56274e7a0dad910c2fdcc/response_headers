@@ -1,0 +1,6 @@
+Server: Varnish
+X-Varnish: 586215956
+Expires: Tue, 16 Jan 2018 05:07:12 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 16 Jan 2018 05:07:12 GMT

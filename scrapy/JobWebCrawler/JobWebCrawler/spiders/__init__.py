@@ -5,7 +5,7 @@
 
 # https://www.indeed.com/jobs?q=Kafka&l=94002
 import scrapy
-
+from JobWebCrawler.items import JobwebcrawlerItem
 
 class JobPostingSpider(scrapy.Spider):
     # identifies the spider name. Called to execute crawler in terminal: "scrapy crawl quotes"
@@ -21,30 +21,31 @@ class JobPostingSpider(scrapy.Spider):
         for url in urls:
             yield scrapy.Request(url=url, callback=self.parse)
 
-    def parse_job_posting(self, response):
-        self.logger.info("Visited %s", response.url)
-        skills = response.css('li::text').extract()
-        print('SKILLS', skills)
-        yield skills
-
 
     def parse(self, response):
 
+
         jobPosts = response.css('.row') #a.turnstileLink')
 
-        # print(jobPostsings)
-
-        runOnce = True
         jobCounter = 0
         for jobPosting in jobPosts:
+
+
+            if jobCounter == 8:
+                continue
+
+            print('--STARTING--------------------------------------------------------------------')
             print('jobCounter', jobCounter)
+            print('--END-------------------------------------------------------------------------')
+
+            item = JobwebcrawlerItem()
+
             jobCounter += 1
             allLinks = jobPosting.css('a.turnstileLink')
             site = ''
             title = ''
             companyName = jobPosting.css('span.company::text').extract_first().strip('\n ')
             counter = 0
-
 
 
             for linkSelector in allLinks:
@@ -80,17 +81,27 @@ class JobPostingSpider(scrapy.Spider):
             # companyName = jobPosting.css('span.company::text').extract_first().strip(' \t\n')
             # print('New companyName', companyName)
 
-            yield {
-                'title' : title,
-                'company' : companyName,
-                'location' : location,
-                'skills' :  response.follow(site, callback=self.parse_job_posting)
-            }
+            item['title'] = title
+            item['company'] = companyName
+            item['location'] = location
 
-            print('------------------------------------------------------------------------------')
+            print('-----ITEM:', item)
+            yield response.follow(site, callback=self.parse_job_posting, meta = {'item' : item})
 
-            # f.write(text)
-            # f.write(author)
-            # f.write(', '.join(tags)+'\n\n')
 
-        # self.log('Saved file %s' % filename)
+
+    def parse_job_posting(self, response):
+        item = response.meta['item']
+
+        self.logger.info("Visited %s", response.url)
+
+        skills = response.css('li::text').extract()
+        item['skills'] = skills
+
+        summary = response.css('span#job_summary::text').extract()
+        if len(summary) > 0:
+            summary = [x.strip('\n') for x in response.css('span#job_summary::text').extract()]
+
+        item['summary'] = summary
+
+        yield item

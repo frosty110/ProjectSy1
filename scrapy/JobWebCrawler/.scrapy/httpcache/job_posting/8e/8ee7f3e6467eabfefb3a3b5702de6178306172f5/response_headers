@@ -1,0 +1,10 @@
+Server: nginx
+Date: Tue, 16 Jan 2018 07:25:21 GMT
+Content-Type: text/html; charset=utf-8
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: 1805B27EEB38_0A6702A701BB_5A5DA8E1_89D9502E04
+X-Runtime: 0.014753
+Strict-Transport-Security: max-age=31557600; includeSubdomains; preload
+X-Download-Options: noopen
+X-Xss-Protection: 1; mode=block
+Content-Encoding: gzip

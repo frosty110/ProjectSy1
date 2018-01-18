@@ -1,0 +1,8 @@
+Access-Control-Allow-Origin: https://app.jobvite.com
+Content-Encoding: gzip
+Content-Language: en
+Content-Type: text/html;charset=UTF-8
+Date: Tue, 16 Jan 2018 07:25:32 GMT
+Server: Jobvite
+Set-Cookie: guestidc=6a857253-1aa6-43a1-b60c-7d9108d8ceb1; Domain=jobvite.com; Path=/
+Set-Cookie: source="__jvst=Job+Board&__jvsd=Indeed&"; Version=1; Domain=jobvite.com; Path=/splunk

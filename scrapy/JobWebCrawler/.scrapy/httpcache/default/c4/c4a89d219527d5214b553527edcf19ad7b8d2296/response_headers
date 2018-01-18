@@ -1,0 +1,13 @@
+Server: nginx
+Date: Tue, 16 Jan 2018 07:01:08 GMT
+Content-Type: text/html;charset=UTF-8
+Set-Cookie: CTK=1c3usb1ec1fgn7q5; Domain=.indeed.com; Expires=Sun, 21-Jan-2035 01:49:39 GMT; Path=/
+Set-Cookie: ctkgen=1; Expires=Tue, 16-Jan-2018 07:04:08 GMT; Path=/
+Set-Cookie: JSESSIONID=03305EE73491CEC5370C908776B0C131.jasxA_sjc-job24; Path=/; HttpOnly
+Set-Cookie: INDEED_CSRF_TOKEN=igT2DsEBgjrk6txBrCjGa1JruiHcLkb3; Path=/
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: 
+Cache-Control: no-cache
+X-Content-Type-Options: nosniff
+Vary: User-Agent,Accept-Encoding
+Content-Encoding: gzip

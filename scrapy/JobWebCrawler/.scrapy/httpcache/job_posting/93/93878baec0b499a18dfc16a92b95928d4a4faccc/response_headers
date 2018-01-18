@@ -1,0 +1,7 @@
+Access-Control-Allow-Origin: https://app.jobvite.com
+Cache-Control: no-cache="set-cookie"
+Content-Language: en
+Content-Type: text/html;charset=utf-8
+Date: Tue, 16 Jan 2018 07:25:22 GMT
+Server: Jobvite
+Set-Cookie: AWSELB=516719A31435877C84DC04C1F4365D6B9B8297F64EAF0519D0975DA29574C021D0AAD1BFD86E9FC620732E249E216DACFE46D20D0B7E5F425979BE3CFFDDCC0D8AC2C07961;PATH=/

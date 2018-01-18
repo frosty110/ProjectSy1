@@ -1,0 +1,11 @@
+Server: nginx
+Date: Tue, 16 Jan 2018 05:11:50 GMT
+Content-Type: text/html;charset=UTF-8
+Set-Cookie: JSESSIONID=18DDC1A647FFBECC207F5521B4DB7EDC.jasxB_sjc-job18; Path=/; HttpOnly
+Set-Cookie: BIGipServerjob=!QqgCHmg27WQN2o0Qu2sD1PzY/fw9DnszkcQdet8DvupJXbZclcLomC0saA3q5lq9h8JnypuupRtJCO8=; path=/
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: 
+Cache-Control: no-cache
+X-Content-Type-Options: nosniff
+Vary: User-Agent,Accept-Encoding
+Content-Encoding: gzip

@@ -15,7 +15,6 @@ class JobwebcrawlerItem(scrapy.Item):
     title = scrapy.Field()
     location = scrapy.Field()
     company = scrapy.Field()
-
     skills = scrapy.Field()
 
     summary = scrapy.Field()

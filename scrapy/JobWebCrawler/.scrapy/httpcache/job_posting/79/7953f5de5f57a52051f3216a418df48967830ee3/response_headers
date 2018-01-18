@@ -1,0 +1,12 @@
+Server: nginx
+Date: Tue, 16 Jan 2018 07:25:40 GMT
+Content-Type: text/html; charset=UTF-8
+Link: <https://highfive.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://highfive.com/?p=22826>; rel=shortlink
+X-Cacheable: bot
+Cache-Control: max-age=10800, must-revalidate
+X-Cache: HIT: 17
+X-Pass-Why: 
+X-Cache-Group: bot
+X-Type: default
+Content-Encoding: gzip

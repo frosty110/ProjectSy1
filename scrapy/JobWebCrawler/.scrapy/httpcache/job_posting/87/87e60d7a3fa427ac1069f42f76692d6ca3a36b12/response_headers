@@ -1,0 +1,13 @@
+Server: nginx
+Date: Tue, 16 Jan 2018 05:07:05 GMT
+Content-Type: text/html;charset=UTF-8
+Set-Cookie: JSESSIONID=7031EF3A1C62BEF8E559950714C051E7.jasxB_sjc-job8; Path=/; HttpOnly
+Set-Cookie: RSJC=a88191fb9e86cfee; Expires=Thu, 15-Feb-2018 05:07:05 GMT; Path=/
+Set-Cookie: pub=4a1b367933fd867b19b072952f68dceb; Expires=Tue, 16-Jan-2018 05:07:20 GMT; Path=/
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.indeed.com *.indeed.net www.indeed.com  d2q79iu7y748jz.cloudfront.net d3s4xzh46vzktb.cloudfront.net d1ymdoy4af119w.cloudfront.net d3fw5vlhllyvee.cloudfront.net www.google-analytics.com https://www.facebook.com/tr/ https://sb.scorecardresearch.com b.scorecardresearch.com https://connect.facebook.net https://6927552.fls.doubleclick.net/ *.serving-sys.com mc.yandex.ru https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ chart.apis.google.com;
+Cache-Control: private
+Location: https://us.conv.indeed.com/pagead/clk?mo=f&ad=-6NYlbfkN0DhVAxkc_TxySVbUOs6bxWYWOfhmDTNcVTjFFBAY1FXZ_jbp8Q_DSbxEHI3oKBhlFxRnrV-VCziSiQi9wSjIXTlXbxh7l0zowQzzPlWSnM9LHYRxxGOtVoKQkLAfe-ypPUiMOlmT78xevcxY91bht9iIYXLb2Zq-dUpvoZiJZgWqhmpJM0vWTPh3bKC3JwiP2thAuSPGKT-5HnIYAQ-MnGuxNB1GPZYuPC-x8LPeeARc3A8M0yiMB5mkE3e99qq65qmNM6bZo90pQ4lZX4aotIdOJGZ1QrJ1teMmIYLjaS23xXl8fFHlPca3nfZ2kVjF3ElFfC5633lcziAzKdYApvbQtgcbBePi74SzsTM4GGL8c8ekqvPZUZm-z375cVJr1dSlALlyobb3rLemsO8BuqUI2Z-9HbtmZMYqLpPhQH-iP790k7U3GWt20jm9WWewG43JvPH5KWVtqaCQPkDnhAtkeq3KUCyEao=&p=1&sk=&fvj=0&ctk=1c3u0h0v61d677tg&ctkRcv=1&pcid=&wwwho=4m_xAU4HGQbAlJdZTkhlA8hEG_rFObn1&iast=1&dupclk=0
+X-Content-Type-Options: nosniff
+Vary: User-Agent,Accept-Encoding
+Content-Encoding: gzip
